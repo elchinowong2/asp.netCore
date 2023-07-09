@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<p>hola @nombre @(() => Console.WriteLine("orl")) </p>
+<button @onclick=@(() => MensajeCLick())> Presioname</button>
+<p> @transformar("Orlando")  </p>
+
+
+@code{
+    string nombre = "Wong";
+
+    string transformar(string valor) => valor.ToUpper();
+
+    void MensajeCLick() {
+
+        Console.WriteLine("Orly");
+
+    }
+
+}
+
+

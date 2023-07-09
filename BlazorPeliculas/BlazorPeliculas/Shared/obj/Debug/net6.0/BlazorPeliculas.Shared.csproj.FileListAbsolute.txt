@@ -1,0 +1,13 @@
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\bin\Debug\net6.0\BlazorPeliculas.Shared.deps.json
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\bin\Debug\net6.0\BlazorPeliculas.Shared.dll
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\bin\Debug\net6.0\ref\BlazorPeliculas.Shared.dll
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\bin\Debug\net6.0\BlazorPeliculas.Shared.pdb
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.GlobalUsings.g.cs
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.csproj.AssemblyReference.cache
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.AssemblyInfoInputs.cache
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.AssemblyInfo.cs
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.csproj.CoreCompileInputs.cache
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.dll
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\ref\BlazorPeliculas.Shared.dll
+C:\Users\thewo\OneDrive\Documentos\Orlando Wong\Blazor\BlazorPeliculas\BlazorPeliculas\Shared\obj\Debug\net6.0\BlazorPeliculas.Shared.pdb
