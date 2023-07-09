@@ -1,13 +1,27 @@
 ﻿@page "/"
 
+
 <p>hola @nombre @(() => Console.WriteLine("orl")) </p>
 <button @onclick=@(() => MensajeCLick())> Presioname</button>
 <p> @transformar("Orlando")  </p>
+
+<p> hola, @transformar(nombre) </p>
+<p> Pelicula: @Ratones.Titulo  </p>
+<p> Fecha de lanzamiento: @Ratones.FechaLanzamiento.ToString("yyyy-MM-dd")  </p>
 
 
 @code{
     string nombre = "Wong";
 
+    Pelicula Ratones {get { return ObtenerPelicula(); } }
+
+    Pelicula ObtenerPelicula() {
+        return new Pelicula
+            {
+                Titulo = "rata,Ratones y Rateros",
+                FechaLanzamiento = new DateTime(2023, 11, 01)
+            };
+    }
     string transformar(string valor) => valor.ToUpper();
 
     void MensajeCLick() {
