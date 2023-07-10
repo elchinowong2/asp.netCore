@@ -6,20 +6,51 @@
 <p> @transformar("Orlando")  </p>
 
 <p> hola, @transformar(nombre) </p>
-<p> Pelicula: @Ratones.Titulo  </p>
-<p> Fecha de lanzamiento: @Ratones.FechaLanzamiento.ToString("yyyy-MM-dd")  </p>
+<h1>Peliculas</h1>
+
+
+@if (Peliculas is null)
+{
+    <p>Cagando peliculas</p>
+
+}
+else
+{
+    @foreach(var pelicula  in ObtenerPelicula())
+    {
+     <p>Titulo: @pelicula.Titulo  </p>
+     <p>Fecha: @pelicula.FechaLanzamiento  </p>
+    }
+}
+
+
 
 
 @code{
+
+    protected override async Task OnInitializedAsync()
+    {
+        await Task.Delay(3000);
+        Peliculas = ObtenerPelicula();
+
+    }
+
+
+
+
     string nombre = "Wong";
 
-    Pelicula Ratones {get { return ObtenerPelicula(); } }
+    List<Pelicula> Pelis {get { return ObtenerPelicula(); } }
+    List<Pelicula>? Peliculas { get; set; }
 
-    Pelicula ObtenerPelicula() {
-        return new Pelicula
+    List<Pelicula> ObtenerPelicula() 
+    {
+        return new List<Pelicula>()
             {
-                Titulo = "rata,Ratones y Rateros",
-                FechaLanzamiento = new DateTime(2023, 11, 01)
+                new Pelicula{  Titulo = "rata,Ratones y Rateros", FechaLanzamiento = new DateTime(2023, 11, 01) },
+                new Pelicula{  Titulo = "El chanfle", FechaLanzamiento = new DateTime(2022, 11, 01) },
+                new Pelicula{  Titulo = "Armagedon", FechaLanzamiento = new DateTime(2021, 11, 01) }
+               
             };
     }
     string transformar(string valor) => valor.ToUpper();
